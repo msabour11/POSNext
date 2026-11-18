@@ -13,15 +13,15 @@ app_license = "agpl-3.0"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "pos_next",
-# 		"logo": "/assets/pos_next/logo.png",
-# 		"title": "POS Next",
-# 		"route": "/pos_next",
-# 		"has_permission": "pos_next.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "pos_next",
+		"logo": "/assets/pos_next/pos/icon.svg",
+		"title": "POS Next",
+		# No route: the icon opens the POS Next module (dock/pos_next); the till itself is the
+		# sidebar's "Open POS" link at /pos.
+	}
+]
 
 # Includes in <head>
 # ------------------
